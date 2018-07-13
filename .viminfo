@@ -11,6 +11,7 @@
 ~Msle0~/#!
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :wq!
 :x
@@ -18,7 +19,6 @@
 :WQ!
 :q!
 :w
-:q
 
 # Search String History (newest to oldest):
 ? \<var\>
@@ -55,18 +55,24 @@
 	 
 
 # File marks:
-'0  15  20  /etc/network/interfaces
-'1  16  20  /etc/network/interfaces
-'2  4  0  /etc/hosts
-'3  3  9  /etc/resolv.conf
-'4  1  0  /etc/resolv.con
-'5  2  92  /etc/resolv.conf
-'6  3  0  /etc/hosts
-'7  1  14  /etc/hosts
-'8  2  70  /etc/resolv.conf
-'9  1  0  ~/gg/gg.sh
+'0  1  0  ~/stashfile
+'1  1  0  ~/.git/config
+'2  2  0  ~/gitlabserver
+'3  2  15  ~/visualpath/stashfile
+'4  15  20  /etc/network/interfaces
+'5  16  20  /etc/network/interfaces
+'6  4  0  /etc/hosts
+'7  3  9  /etc/resolv.conf
+'8  1  0  /etc/resolv.con
+'9  2  92  /etc/resolv.conf
 
 # Jumplist (newest first):
+-'  1  0  ~/stashfile
+-'  1  0  ~/.git/config
+-'  2  0  ~/gitlabserver
+-'  1  0  ~/gitlabserver
+-'  2  15  ~/visualpath/stashfile
+-'  1  0  ~/visualpath/stashfile
 -'  15  20  /etc/network/interfaces
 -'  1  0  /etc/network/interfaces
 -'  16  20  /etc/network/interfaces
@@ -159,14 +165,26 @@
 -'  1  0  ~/google/g1
 -'  8  0  ~/google/g1
 -'  7  6  ~/google/g1
--'  6  22  ~/google/g1
--'  9  0  ~/google/g1
--'  1  0  ~/google/g1
--'  8  0  ~/google/g1
--'  7  6  ~/google/g1
--'  6  22  ~/google/g1
 
 # History of marks within files (newest to oldest):
+
+> ~/stashfile
+	"	1	0
+
+> ~/.git/config
+	"	1	0
+
+> ~/gitlabserver
+	"	2	0
+	^	2	0
+	.	1	11
+	+	1	11
+
+> ~/visualpath/stashfile
+	"	2	15
+	^	2	16
+	.	2	16
+	+	2	16
 
 > /etc/network/interfaces
 	"	15	20
